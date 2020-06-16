@@ -1,0 +1,29 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: tomato;
+    transition: ease-out 500ms;
+}
+
+main {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+button {
+    padding: 0.25rem 0.5rem;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    text-transform: capitalize;
+    background-color: transparent;
+    border: 3px solid #333;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: lightsteelblue;
+}
